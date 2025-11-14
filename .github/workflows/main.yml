@@ -6,3 +6,7 @@ on:
 jobs:
   setup-punch-tunnel:
     runs-on: windows-latest
+
+    steps:
+    - name: Check code
+      uses: actions/checkout@v3

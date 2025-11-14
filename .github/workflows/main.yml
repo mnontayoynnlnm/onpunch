@@ -1,1 +1,8 @@
+name: ONPUNCH Tunnel
 
+on:
+  workflow_dispatch:
+
+jobs:
+  setup-punch-tunnel:
+    runs-on: windows-latest
